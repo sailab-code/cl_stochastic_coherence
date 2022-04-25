@@ -3,7 +3,7 @@
 This repository contains the code, data and selected hyperparameters for the paper **Stochastic Coherence Over Attention Trajectory For Continuous Learning In Video Streams**,
 accepted for publication at the IJCAI-ECAI2022 conference. 
 
-*Authors:*  [Matteo Tiezzi](https://mtiezzi.github.io/), Simone Marullo, Lapo Faggi,  Enrico Meloni, Enrico Meloni, Stefano Melacci
+*Authors:*  [Matteo Tiezzi](https://mtiezzi.github.io/), Simone Marullo, Lapo Faggi,  Enrico Meloni, Alessandro Betti, Stefano Melacci
 
 You can find [ here the Arxiv pre-print! TOBEANNOUNCED](https://arxiv.org/).
 
