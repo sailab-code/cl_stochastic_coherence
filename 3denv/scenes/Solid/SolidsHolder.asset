@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03f0e03796579442a5c8da51b99ad79, type: 3}
+  m_Name: SolidsHolder
+  m_EditorClassIdentifier: 
+  m_Categories:
+  - {fileID: 11400000, guid: 8c2e03911aedd99438961c5d1ed34fa1, type: 2}
+  - {fileID: 11400000, guid: 448081145a775d04ab8859c98c3a6057, type: 2}
+  - {fileID: 11400000, guid: 7cda0025182baea458cba3068e7a5caa, type: 2}

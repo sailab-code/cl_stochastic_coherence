@@ -1,0 +1,6 @@
+{
+    "cube": 0,
+    "cylinder": 1,
+    "sphere": 2,
+    "background": 3
+}

@@ -1,0 +1,14 @@
+opencv-python
+ffmpeg-python
+scipy
+tensorboard 
+requests
+pillow
+sklearn
+matplotlib
+timm
+numpy
+seaborn
+pandas
+sailenv
+torchsummary

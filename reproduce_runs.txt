@@ -1,0 +1,35 @@
+python exp_runner.py --arch=dpt_classifier --dataset=emptyspace --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_classifier --dataset=emptyspace --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_classifier --dataset=solid --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_classifier --dataset=livingroom --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_classifier --dataset=livingroom --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_backbone --dataset=emptyspace --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_backbone --dataset=emptyspace --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_backbone --dataset=solid --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_backbone --dataset=livingroom --force_gray=yes --normalize=no --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=dpt_backbone --dataset=livingroom --force_gray=no --normalize=no --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_classifier --dataset=emptyspace --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_classifier --dataset=emptyspace --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_classifier --dataset=solid --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_classifier --dataset=livingroom --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_classifier --dataset=livingroom --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_backbone --dataset=emptyspace --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_backbone --dataset=emptyspace --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_backbone --dataset=solid --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_backbone --dataset=livingroom --force_gray=yes --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=deeplab_resnet101_backbone --dataset=livingroom --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=identity --dataset=emptyspace --force_gray=yes --normalize=no --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=identity --dataset=emptyspace --force_gray=no --normalize=yes --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=identity --dataset=solid --force_gray=yes --normalize=no --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=identity --dataset=livingroom --force_gray=yes --normalize=no --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=identity --dataset=livingroom --force_gray=no --normalize=no --num_pairs=10 --laps_metrics=2 --laps_sup=2 --laps_unsup=0 --train=no
+python exp_runner.py --arch=resnetunolastskip --dataset=emptyspace --force_gray=yes --lambda_s_in=0.0001 --lambda_s_out=0.1 --lambda_t=1 --normalize=yes --num_pairs=30000 --num_what=32 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=5 --step_size=5e-06
+python exp_runner.py --arch=resnetu --dataset=emptyspace --force_gray=no --lambda_s_in=0.0001 --lambda_s_out=0.1 --lambda_t=1 --normalize=yes --num_pairs=30000 --num_what=128 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=5 --step_size=0.0005
+python exp_runner.py --arch=resnetunobn --dataset=solid --force_gray=yes --lambda_s_in=0.001 --lambda_s_out=0.1 --lambda_t=0.1 --normalize=yes --num_pairs=10000 --num_what=128 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=5 --step_size=0.0001
+python exp_runner.py --arch=resnetunolastskip --dataset=livingroom --force_gray=yes --lambda_s_in=0.01 --lambda_s_out=10 --lambda_t=0.1 --normalize=yes --num_pairs=30000 --num_what=32 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=5 --step_size=0.001
+python exp_runner.py --arch=resnetu --dataset=livingroom --force_gray=no --lambda_s_in=0.001 --lambda_s_out=10 --lambda_t=0.1 --normalize=yes --num_pairs=30000 --num_what=32 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=5 --step_size=0.0005
+python exp_runner.py --arch=larger_standard --dataset=emptyspace --force_gray=yes --lambda_s_in=0.01 --lambda_s_out=0.01 --lambda_t=0.1 --normalize=no --num_pairs=10000 --num_what=32 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=5 --step_size=0.001
+python exp_runner.py --arch=larger_standard --dataset=emptyspace --force_gray=no --lambda_s_in=0.001 --lambda_s_out=0.01 --lambda_t=0.01 --normalize=no --num_pairs=10000 --num_what=32 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=3 --step_size=0.001
+python exp_runner.py --arch=larger_standard --dataset=solid --force_gray=yes --lambda_s_in=0.01 --lambda_s_out=0.01 --lambda_t=0.01 --normalize=no --num_pairs=10000 --num_what=32 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=3 --step_size=0.001
+python exp_runner.py --arch=larger_standard --dataset=livingroom --force_gray=yes --lambda_s_in=0.01 --lambda_s_out=1 --lambda_t=0.01 --normalize=yes --num_pairs=30000 --num_what=128 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=3 --step_size=0.0001
+python exp_runner.py --arch=larger_standard --dataset=livingroom --force_gray=no --lambda_s_in=0.001 --lambda_s_out=0.1 --lambda_t=0.01 --normalize=yes --num_pairs=30000 --num_what=128 --laps_metrics=2 --laps_sup=5 --laps_unsup=25 --spread_factor=3 --step_size=0.001
