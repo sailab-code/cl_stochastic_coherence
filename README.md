@@ -6,6 +6,7 @@ accepted for publication at the IJCAI-ECAI2022 conference.
 *Authors:*  [Matteo Tiezzi](https://mtiezzi.github.io/), Simone Marullo, Lapo Faggi,  Enrico Meloni, Alessandro Betti, Stefano Melacci
 
 You can find [ here the Arxiv pre-print!](https://arxiv.org/abs/2204.12193)
+[Proceedings](https://www.ijcai.org/proceedings/2022/0483.pdf)
 
 
 _Notice that reproducibility is not guaranteed by PyTorch across different releases, platforms, hardware. Moreover,
